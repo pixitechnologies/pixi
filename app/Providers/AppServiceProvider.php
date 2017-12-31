@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace PixiTechnologies\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
     <title>{{config('app.name' , 'PixiTechnologies')}}</title>
 
 </head>
 <body>
-    @yield('content')
+    @include('includes.header')
 
+    <div class="container">
+    @yield('content')
+    </div>
+
+    @include('includes.footer')
 </body>
 </html>

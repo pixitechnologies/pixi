@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        PixiTechnologies\Providers\AppServiceProvider::class,
+        PixiTechnologies\Providers\AuthServiceProvider::class,
+        // PixiTechnologies\Providers\BroadcastServiceProvider::class,
+        PixiTechnologies\Providers\EventServiceProvider::class,
+        PixiTechnologies\Providers\RouteServiceProvider::class,
 
     ],
 
