@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navBar">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                <li><a href="/"><i class="glyphicon  glyphicon-home"></i> HOME</a></li>
                 <li><a href="/projects"><span class="glyphicon glyphicon-hand-right"></span> PROJECTS</a></li>
                 <li><a href="/about"><span class="glyphicon glyphicon-exclamation-sign"></span> ABOUT</a></li>
                 <li><a href="/contact"><span class="glyphicon glyphicon-phone"></span> CONTACT</a></li>

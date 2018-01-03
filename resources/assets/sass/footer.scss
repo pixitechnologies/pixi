@@ -1,0 +1,99 @@
+
+
+// Footer
+.fh5co-footer {
+  padding: 10px 0 10px;
+  background: #323a45;
+  color: #878c93;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  width: 100%;
+  .fh5co-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    background: #0d3625;
+    opacity: .5;
+  }
+  .fh5co-footer-content {
+    position: relative;
+    z-index: 9;
+  }
+  .container  {
+    .row {
+      > div {
+        margin-bottom: 0;
+      }
+    }
+  }
+  @media screen and (max-width: $screen-md) {
+    position: relative;
+    padding: 5em 0;
+  }
+  @media screen and (max-width: $screen-sm) {
+    padding: 5em 0;
+  }
+
+
+  p {
+    display: block;
+  }
+
+  .fh5co-copyright small {
+    font-size: 12px;
+  }
+  .fh5co-lead {
+    font-size: 13px;
+    font-family: "Times New Roman";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  a {
+    color: #9a9fa5;
+    &:hover, &:active, &:focus {
+      color: gray;
+    }
+  }
+
+
+  .fh5co-footer-logo {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    a {
+      font-family: "Times New Roman";
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: gray;
+      border: 2px solid #9a9fa5;
+      float: left;
+      padding: 7px 10px 7px 12px;
+      text-transform: uppercase;
+      &:hover, &:active, &:focus {
+        color: white;
+        border-color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 14px 0;
+      line-height: 16px;
+    }
+  }
+
+}
