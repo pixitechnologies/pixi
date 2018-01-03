@@ -1,0 +1,31 @@
+.header{
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 40px;
+  color: black;
+}
+
+.header img{
+  height: 280px;
+  width: 450px;
+  margin: 50px 0 0 40px;
+
+}
+
+.header h1{
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+
+}
+.header h1,
+.header p,
+.header button{
+  margin-top: 20px;
+}
+.header .btn {
+  border-radius: 0;
+  margin: 40px 20px;
+
+}
