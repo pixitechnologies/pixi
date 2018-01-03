@@ -39,7 +39,7 @@
 
                 <div class="col-md-3 col-sm-12 col-md-pull-10">
                     <div class="fh5co-footer-logo"><a href="/"><img src="{{asset('img/pixilogo.png')}}"></a></div>
-                    <p class="fh5co-copyright"><small>&copy; <?php date('Y'); ?>. All Rights Reserved. <br>	by <a href="/" target="_blank">PixiTechnologies</a></small></p>
+                    <p class="fh5co-copyright"><small>&copy; <?php echo date("Y"); ?>. All Rights Reserved. <br>	by <a href="/" target="_blank">PixiTechnologies</a></small></p>
                     <p class="fh5co-social-icons">
                         <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
                         <a href="#"><i class="fa fa-facebook"></i></a>
