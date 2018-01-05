@@ -41,11 +41,11 @@
                     <div class="fh5co-footer-logo"><a href="/"><img src="{{asset('img/pixilogo.png')}}"></a></div>
                     <p class="fh5co-copyright"><small>&copy; <?php echo date("Y"); ?>. All Rights Reserved. <br>	by <a href="/" target="_blank">PixiTechnologies</a></small></p>
                     <p class="fh5co-social-icons">
-                        <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
+                        <a href="#"><i class="fa fa-facebook fa-lg fa-fw"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-lg fa-fw"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
+                        <a href="#"><i class="fa fa-mobile-phone fa-lg fa-fw"></i></a>
                     </p>
                 </div>
 
