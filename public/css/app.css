@@ -8360,23 +8360,28 @@ button.close {
 }
 
 .navbar-brand {
+  display: block;
   float: left;
-  min-heght: 55px;
+  min-heght: auto !important;
   padding: 0 15px 5px;
-  background-color: #ffff;
+}
+
+@media screen and (min-device-width: 768px) {
+  .navbar-brand > img {
+    max-width: 240px;
+    height: auto !important;
+  }
 }
 
 .navbar-inverse .navbar-nav li a {
-  color: #d01c17;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  color: #f40c0c;
+  padding: 25px 15px 25px 15px;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-  color: #d01c17;
-}
-
-.navbar-inverse .navbar-nav li a:hover {
-  color: #d01c17;
-  border-bottom-color: #d01c17;
+  font-weight: bolder;
+  color: #f40c0c;
 }
 
 .navbar-inverse .navbar-nav .active a,
@@ -8542,7 +8547,7 @@ button.close {
 @font-face {
   font-family: 'FontAwesome';
   src: url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?v=4.7.0");
-  src: url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url('/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format("embedded-opentype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
