@@ -14,12 +14,13 @@
   float: left;
   min-heght: auto!important;
   padding: 0 15px 5px;
+  margin: 1% auto;
 
 }
-@media screen and (min-device-width: $screen-sm){
+@media (max-width: 600px){
 
   .navbar-brand > img{
-    max-width: 240px;
+    max-width: 180px;
     height: auto!important;
   }
 
@@ -29,6 +30,7 @@
   font-family: 'Open Sans', 'Arial', sans-serif;
   color: #f40c0c;
   padding: 25px 15px 25px 15px;
+  margin: 1% auto;
 
 }
 

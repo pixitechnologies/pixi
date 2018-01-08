@@ -2000,8 +2000,7 @@ pre code {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 3% auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -8364,11 +8363,12 @@ button.close {
   float: left;
   min-heght: auto !important;
   padding: 0 15px 5px;
+  margin: 1% auto;
 }
 
-@media screen and (min-device-width: 768px) {
+@media (max-width: 600px) {
   .navbar-brand > img {
-    max-width: 240px;
+    max-width: 180px;
     height: auto !important;
   }
 }
@@ -8377,10 +8377,10 @@ button.close {
   font-family: 'Open Sans', 'Arial', sans-serif;
   color: #f40c0c;
   padding: 25px 15px 25px 15px;
+  margin: 1% auto;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-  font-weight: bolder;
   color: #f40c0c;
 }
 
@@ -8547,7 +8547,7 @@ button.close {
 @font-face {
   font-family: 'FontAwesome';
   src: url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?v=4.7.0");
-  src: url('/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format("embedded-opentype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/public/css/fonts/vendor/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
