@@ -10,29 +10,31 @@
 }
 
 .navbar-brand {
+  display: block;
   float: left;
-  min-heght: 55px;
+  min-heght: auto!important;
   padding: 0 15px 5px;
-  background-color: #ffff;;
+
+}
+@media screen and (min-device-width: $screen-sm){
+
+  .navbar-brand > img{
+    max-width: 240px;
+    height: auto!important;
+  }
+
 }
 
 .navbar-inverse .navbar-nav li a {
-
-  color: #d01c17;
-
-}
-
-.navbar-inverse .navbar-nav li a:hover {
-
-  color: #d01c17;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  color: #f40c0c;
+  padding: 25px 15px 25px 15px;
 
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-
-  color: #d01c17;
-  border-bottom-color: #d01c17;
-
+  font-weight: bolder;
+  color: #f40c0c;
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
