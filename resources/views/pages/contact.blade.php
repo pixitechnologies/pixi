@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 style="font-family: 'B SIDE'">CONTACT US TODAY</h1>
+                <h1 style="font-family: 'Open Sans', 'Arial', sans-serif">CONTACT US TODAY</h1>
             </div>
 
             <div class="col-md-6">
