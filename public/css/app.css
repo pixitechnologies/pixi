@@ -2006,7 +2006,7 @@ pre code {
 }
 
 @media (max-width: 600px) {
-    iframe{
+    #map{
         margin: 1% auto;
         max-width: 310px;
         max-height: 350px;
@@ -11597,3 +11597,19 @@ button.close {
   clip: auto;
 }
 
+#map {
+    width: 600px;
+    height: 450px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+#me{
+    font-weight: bolder;
+}
+
+#us{
+    background: white;
+    margin: 0;
+}
