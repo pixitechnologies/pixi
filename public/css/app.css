@@ -2005,6 +2005,14 @@ pre code {
   padding-right: 15px;
 }
 
+@media (max-width: 600px) {
+    iframe{
+        margin: 1% auto;
+        max-width: 310px;
+        max-height: 350px;
+    }
+}
+
 .container:before,
 .container:after {
   content: " ";
