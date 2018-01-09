@@ -2000,17 +2000,10 @@ pre code {
 }
 
 .container {
-  margin: 1% auto;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-@media (max-width: 600px) {
-    #map{
-        margin: 1% auto;
-        max-width: 310px;
-        max-height: 350px;
-    }
 }
 
 .container:before,
@@ -5861,11 +5854,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #f2f4f4;
+  background-color: #333;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #070707;
+  background-color: #fff;
 }
 
 .navbar-inverse .navbar-collapse,
@@ -11597,40 +11590,3 @@ button.close {
   clip: auto;
 }
 
-#map {
-    width: 600px;
-    height: 450px;
-    background-color: grey;
-    border: 2px solid grey;
-    border-radius: 2px;
-}
-
-#me{
-    font-weight: bolder;
-}
-
-#us{
-    background: white;
-    margin: 0;
-}
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
