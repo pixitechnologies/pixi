@@ -2000,10 +2000,17 @@ pre code {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 1% auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+    #map{
+        margin: 1% auto;
+        max-width: 310px;
+        max-height: 350px;
+    }
 }
 
 .container:before,
@@ -5854,11 +5861,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  background-color: #f2f4f4;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #070707;
 }
 
 .navbar-inverse .navbar-collapse,
@@ -8360,21 +8367,42 @@ button.close {
 }
 
 .navbar-brand {
+  display: block;
   float: left;
-  min-heght: 40px;
-  padding: 0 10px 5px;
-  background-color: #ffff;
+  min-heght: auto !important;
+  padding: 0 15px 5px;
+  margin: 1% auto;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand > img {
+    max-width: 180px;
+    height: auto !important;
+  }
 }
 
 .navbar-inverse .navbar-nav li a {
-  color: #d01c17;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  color: #f40c0c;
+  padding: 25px 15px 25px 15px;
+  margin: 1% auto;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #f40c0c;
 }
 
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
+  color: #041a30;
+  background-color: #f2f4f4;
+}
+
+.button {
   color: black;
-  background-color: #d01c17;
+  background: black;
+  font-weight: bold;
 }
 
 .fh5co-footer {
@@ -8382,7 +8410,6 @@ button.close {
   background: #323a45;
   color: #878c93;
   position: absolute;
-  bottom: 0;
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 300;
   width: 100%;
@@ -8484,6 +8511,37 @@ button.close {
   padding: 0;
   margin: 0 0 14px 0;
   line-height: 16px;
+}
+
+.header {
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 40px;
+  color: black;
+}
+
+.header img {
+  height: 280px;
+  width: 450px;
+  margin: 50px 0 0 40px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.header h1,
+.header p,
+.header button {
+  margin-top: 20px;
+}
+
+.header .btn {
+  border-radius: 0;
+  margin: 40px 20px;
 }
 
 /*!
@@ -11539,3 +11597,40 @@ button.close {
   clip: auto;
 }
 
+#map {
+    width: 600px;
+    height: 450px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+#me{
+    font-weight: bolder;
+}
+
+#us{
+    background: white;
+    margin: 0;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

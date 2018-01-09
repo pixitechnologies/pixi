@@ -6,27 +6,23 @@
 
         <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/">
-
-                <div class="img-responsive"> <img src="{{asset('img/pixilogo.png')}}"></div>
-
-            </a>
+            <a class="navbar-brand" href="/"><img src="{{asset('img/pixilogo.png')}}"></a>
 
         </div>
 
-        <div class="collapse navbar-collapse" id="navBar">
+        <div class="collapse navbar-collapse" id="navbar">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/"><i class="glyphicon  glyphicon-home"></i> HOME</a></li>
-                <li><a href="/projects"><span class="glyphicon glyphicon-hand-right"></span> PROJECTS</a></li>
-                <li><a href="/about"><span class="glyphicon glyphicon-exclamation-sign"></span> ABOUT</a></li>
-                <li><a href="/contact"><span class="glyphicon glyphicon-phone"></span> CONTACT</a></li>
+                <li><a href="/"><i class="fa fa-home"></i> HOME</a></li>
+                <li><a href="/projects"><i class="fa fa-hand-o-right"></i> PROJECTS</a></li>
+                <li><a href="/about"><i class="fa fa-exclamation-circle"></i> ABOUT</a></li>
+                <li><a href="/contact"><i class="fa fa-phone-square"></i> CONTACT</a></li>
 
             </ul>
 
