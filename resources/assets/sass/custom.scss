@@ -1,31 +1,94 @@
-.header{
-  height: 600px;
-  width: 100%;
-  padding: 30px 0 30px;
-  margin-top: 40px;
-  color: black;
-}
-
-.header img{
-  height: 280px;
-  width: 450px;
-  margin: 50px 0 0 40px;
+.header {
+  background-image: url("../../../public/img/body-bg-32.png");
+  width: 100% !important;
 
 }
 
-.header h1{
-  font-size: 40px;
+.header h1 {
+  font-family:Georgia;
   font-weight: 700;
-  padding-top: 30px;
-
 }
-.header h1,
-.header p,
-.header button{
+
+.header .col-lg-6,
+.header .col-md-6{
+  margin-top: 50px;
+}
+.header h1{
+  padding-top: 50px;
+}
+.header .btn{
+  padding: 20px 20px 20px 20px;
   margin-top: 20px;
 }
-.header .btn {
-  border-radius: 0;
-  margin: 40px 20px;
 
+
+
+//SERVICES SECTION...KASSIM RIYAMI PIXI WEB DEVELOPER 2018
+
+.services{
+  padding: 80px 0 80px;
+  text-align:center;
+ // background-image: url("../../../public/img/Grunge-textures-vintage-background-vectors-03.png");
+  color: white;
+  background-color: red;
+}
+
+.services h1{
+  font-family: Georgia;
+  font-weight: 700;
+  padding-bottom: 20px;
+
+
+}
+
+.services h4 {
+  font-family: Georgia;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.services p{
+  padding-bottom: 30px;
+
+}
+
+.services i {
+
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding: 25px 20px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+//team section
+.team{
+  text-align: center;
+}
+
+.team i{
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+
+//clients
+
+.customer{
+  text-align: center;
+}
+
+
+p,li{
+  font-family:"Comic Sans MS";
+  font-size: 15px;
+  font-weight: 400;
 }

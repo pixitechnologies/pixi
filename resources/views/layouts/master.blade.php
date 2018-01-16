@@ -9,6 +9,7 @@
 
     {{--Icons--}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>{{config('app.name' , 'PixiTechnologies')}}</title>
 
@@ -20,9 +21,8 @@
 <body>
     @include('includes.header')
 
-    <div class="container">
+
     @yield('content')
-    </div>
 
     @include('includes.footer')
 </body>
