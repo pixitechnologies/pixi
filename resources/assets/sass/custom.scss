@@ -19,6 +19,9 @@
 .header .btn{
   padding: 20px 20px 20px 20px;
   margin-top: 20px;
+  color: transparent !important;
+  border-radius: 0;
+  border: 2px;
 }
 
 
@@ -28,9 +31,11 @@
 .services{
   padding: 80px 0 80px;
   text-align:center;
- // background-image: url("../../../public/img/Grunge-textures-vintage-background-vectors-03.png");
+  background-image: url("../../../public/img/Background.png");
   color: white;
-  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .services h1{
@@ -54,29 +59,34 @@
 
 .services i {
 
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   font-size: 50px;
   padding-bottom: 20px;
   padding: 25px 20px;
-  border-radius: 50%;
-  background-color: black;
+
+
   color: white;
 }
 
 //team section
 .team{
   text-align: center;
+  background-color: black;
+
 }
 
 .team i{
   height: 50px;
   width: 50px;
   font-size: 30px;
-  padding: 20px 20px;
+  padding: 20px 20px 20px 20px;
   border-radius: 50%;
   background-color: black;
   color: white;
+  margin-bottom: 20px;
+
+
 }
 
 
@@ -86,9 +96,61 @@
   text-align: center;
 }
 
+.customer img{
+  height: 150px;
+  width: auto;
+
+}
+
 
 p,li{
   font-family:"Comic Sans MS";
   font-size: 15px;
   font-weight: 400;
+}
+
+h1,h2,h3,h4{
+  font-family: Georgia;
+}
+h1,h2{
+  font-weight: 700;
+}
+
+#contact{
+  background-color:#f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+#contact .well{
+  margin-top:30px;
+  border-radius:0;
+}
+
+#contact .form-control{
+  border-radius: 0;
+  border:2px solid #1e1e1e;
+}
+
+#contact button{
+  border-radius:0;
+  border:2px solid #1e1e1e;
+}
+
+#contact .row{
+  margin-bottom:30px;
+}
+
+@media (max-width: 768px) {
+  #contact iframe {
+    margin-bottom: 15px;
+  }
+
+}
+
+.customer img{
+  padding: 20px 20px 20px 20px;
+
+
 }
