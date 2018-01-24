@@ -1,6 +1,7 @@
 .header {
-  background-image: url("../../../public/img/body-bg-32.png");
+  background-image: url("../../../public/img/pixi.png");
   width: 100% !important;
+  color: white;
 
 }
 
@@ -19,9 +20,15 @@
 .header .btn{
   padding: 20px 20px 20px 20px;
   margin-top: 20px;
-  color: transparent !important;
+  color: black;
   border-radius: 0;
   border: 2px;
+}
+
+.header img{
+  height: 450px;
+  width: 550px;
+
 }
 
 
@@ -99,6 +106,8 @@
 .customer img{
   height: 150px;
   width: auto;
+  opacity: 0.6;
+  cursor: pointer;
 
 }
 
@@ -120,6 +129,10 @@ h1,h2{
   background-color:#f1f1f1;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+
+}
+
+#contact .jumbotron{
 
 }
 

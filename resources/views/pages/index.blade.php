@@ -14,11 +14,19 @@
                     <button class="btn btn-lg "><i class="fa fa-briefcase"> VIEW ALL PROJECTS</i></button>
                 </div>
                 <div class="col-md-6 col-lg-6 animated bounceInRight" data-wow-delay="2s">
-                    <img src="{{asset('img/icon2.png')}}"  alt="">
+                    <img src="{{asset('img/icon1.png')}}"  alt="">
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+        <!-- Left and right controls -->
+
 
     {{--end header kassimriyami pixitechnologies web developer--}}
 
@@ -31,7 +39,7 @@
             <h1>OUR SERVICES</h1>
             <P>As a Digital Agency we offer the following services to our clients</P>
             <div class="row">
-                <div class="col-lg-3 col-md-3 animated bounceInLeft"  ><i class="fa fa-desktop" aria-hidden="true"></i>
+                <div class="col-lg-3 col-md-3 "  ><i class="fa fa-desktop" aria-hidden="true"></i>
                     <h4>WEB DEVELOPMENT</h4> <p>as a Web Design Company in Tanzania Our expert development team works on
                         the cutting edge of technology and best practices.</p>
                 </div>
@@ -111,33 +119,33 @@
             <div class="row">
                 <div class="animated">
                 <div class="col-lg-3 col-md-3">
-                    <img src="{{asset('img/emjey.png')}}" alt="">
+                    <img src="{{asset('img/emjey.png')}}" alt="EMJEY COURIERS">
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <img src="{{asset('img/r.png')}}" alt="">
+                    <img src="{{asset('img/r.png')}}" alt="LEKA CONTRACTORS">
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <img src="{{asset('img/builder.png')}}" alt="">
+                    <img src="{{asset('img/builder.png')}}" alt="BUILDERS CENTER">
                 </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <img src="{{asset('img/mind.png')}}" alt="">
+                        <img src="{{asset('img/mind.png')}}" alt="MINDSOURCE TANZANIA">
                     </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <img src="{{asset('img/edge.png')}}" alt="">
+                        <img src="{{asset('img/edge.png')}}" alt="THE EDGE LOGISTICS TANZANIA">
                     </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <img src="{{asset('img/gl.png')}}" alt="">
+                        <img src="{{asset('img/gl.png')}}" alt="GL INSURANCE TANZANIA">
                     </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <img src="{{asset('img/emc.png')}}" alt="">
+                        <img src="{{asset('img/emc.png')}}" alt="EMC SYSTEMS TANZANIA">
                     </div>
 
                 <div class="col-lg-3 col-md-3">
-                    <img src="{{asset('img/spare.png')}}"  alt="">
+                    <img src="{{asset('img/spare.png')}}"  alt="SPAREZAMAGARI TANZANIA">
                 </div>
                 </div>
             </div>
@@ -152,7 +160,7 @@
 
             <div class="row">
                 <div class="col-md-7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5803949310325!2d39.27354211488468!3d-6.820778395070355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4ba8e4853b39%3A0xb6cba1f58c317054!2sPixi+Technologies!5e0!3m2!1sen!2stz!4v1516781136957" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
 
                 <div class="col-md-5">
