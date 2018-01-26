@@ -1,5 +1,6 @@
 <!-- Start Navigation -->
 
+
 <nav class="navbar navbar-inverse">
 
     <div class="container-fluid">
@@ -15,6 +16,8 @@
             <a class="navbar-brand" href="/"><img src="{{asset('img/pixilogo.png')}}"></a>
 
         </div>
+
+
 
         <div class="collapse navbar-collapse" id="navbar">
 
